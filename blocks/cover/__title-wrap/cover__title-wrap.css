@@ -1,0 +1,12 @@
+.cover__title-wrap {
+    max-width: 560px;
+    text-align: center;
+    z-index: 1;
+}
+
+@media screen and (max-width: 683px) {
+    .cover__title-wrap {
+        max-width: 90vw;
+
+    }
+}

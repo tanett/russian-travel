@@ -1,12 +1,17 @@
 .cover {
   min-width: calc(100% - 96px);
-  margin-bottom: 92px;  
+  height: 740px;
+  margin-bottom: 92px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
  }
 
 @media screen and (max-width: 1024px) {
   .cover {
     position: relative;
     min-width: calc(100% + 96px);
+    height: 640px;
     left: -48px;
   }
 }
@@ -14,7 +19,7 @@
 @media screen and (max-width: 832px) {
   .cover {
     
-    min-height: 480px;
+    min-height: 560px;
     margin-bottom: 88px;
   }
 }
@@ -23,7 +28,7 @@
   .cover {
     min-width: 100%;
     left: 0;
-    height: 480px;
+    height: 62.5vw;
     margin-bottom: 88px;
   }
 }
