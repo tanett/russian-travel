@@ -6,8 +6,10 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        width: calc(100% - 96px);
+        width: 100%;
         min-height: 3292px;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -23,6 +25,6 @@
     .places {
         width: 320px;
         min-height: 4786px;
-        margin: 64px auto;
+        margin: 64px auto 0 auto;
     }
 }

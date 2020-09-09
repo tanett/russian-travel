@@ -1,12 +1,10 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-rows:fit-content(152px) minmax(min-content, max-content);
+  grid-template-rows: fit-content(152px) minmax(min-content, max-content);
   grid-template-columns: fit-content(460px) minmax(min-content, max-content);
-  grid-template-areas: 
-  'title website'
-  'image paragraph';
-  gap: 40px 48px;
+  grid-template-areas: 'title website' 'image paragraph';
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 
@@ -15,36 +13,47 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place {  
-  grid-template-columns: fit-content(440px) minmax(min-content, max-content);
-  gap: 32px 48px;
-}
+  .place {
+    grid-template-columns: fit-content(440px) minmax(min-content, 456px);
+    gap: 48px 32px;
+  }
 }
 
 @media screen and (max-width: 880px) {
   .place {
-  margin-bottom: 76px;
-  grid-template-columns: fit-content(390px) minmax(min-content, max-content);
-  gap: 30px 48px;
+    margin-bottom: 76px;
+    grid-template-columns: fit-content(390px) minmax(min-content, max-content);
+    gap: 48px 30px;
 
+  }
 }
-}
+
 @media screen and (max-width: 768px) {
   .place {
-  margin-bottom: 72px;
-  grid-template-columns: fit-content(340px) minmax(min-content, max-content);
-  gap: 28px 48px;
+    margin-bottom: 72px;
+    grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+    gap: 48px 28px;
 
-}
+  }
 }
 
+@media screen and (max-width: 460px) {
+  .place {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
+}
 @media screen and (max-width: 320px) {
   .place {
-  margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-
-}
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
 }

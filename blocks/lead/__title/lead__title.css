@@ -3,26 +3,26 @@
   margin: 0 auto;
   padding: 0;
   font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
 }
- 
+
 @media screen and (max-width: 1024px) {
-  .lead__title {
-    width: 100%;
-    
+ .lead__title {
+   width: 100%;
+
   }
 }
 
 @media screen and (max-width: 682px) {
   .lead__title {
-    
+
     font-size: 12.5vw;
-line-height: 13.75vw;
+    line-height: 13.75vw;
   }
 }
 
@@ -30,6 +30,6 @@ line-height: 13.75vw;
   .lead__title {
     width: 288px;
     font-size: 40px;
-line-height: 44px;
+    line-height: 44px;
   }
 }
