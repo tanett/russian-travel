@@ -1,0 +1,38 @@
+.cover {
+  min-width: calc(100% - 96px);
+  margin-bottom: 92px;  
+ }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    position: relative;
+    min-width: calc(100% + 96px);
+    left: -48px;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .cover {
+    
+    min-height: 480px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-width: 100%;
+    left: 0;
+    height: 480px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-width: 100%;
+    
+    height: 200px;
+    margin-bottom: 64px;
+  }
+}

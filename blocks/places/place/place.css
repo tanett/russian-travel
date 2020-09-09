@@ -1,0 +1,50 @@
+.place {
+  width: 100%;
+  display: grid;
+  grid-template-rows:fit-content(152px) minmax(min-content, max-content);
+  grid-template-columns: fit-content(460px) minmax(min-content, max-content);
+  grid-template-areas: 
+  'title website'
+  'image paragraph';
+  gap: 40px 48px;
+  margin-bottom: 80px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {  
+  grid-template-columns: fit-content(440px) minmax(min-content, max-content);
+  gap: 32px 48px;
+}
+}
+
+@media screen and (max-width: 880px) {
+  .place {
+  margin-bottom: 76px;
+  grid-template-columns: fit-content(390px) minmax(min-content, max-content);
+  gap: 30px 48px;
+
+}
+}
+@media screen and (max-width: 768px) {
+  .place {
+  margin-bottom: 72px;
+  grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+  gap: 28px 48px;
+
+}
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+}
