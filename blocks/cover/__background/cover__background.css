@@ -1,7 +1,6 @@
 .cover__background {
-  
   min-height: 740px;
-  background-image: url('../../../images/cover__railway-trains\ \(1\).png');
+  background-image: url('../../../images/cover__railway-trains.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,15 +13,11 @@
 
 @media screen and (max-width: 768px) {
   .cover__background {
-    
     min-height: 480px;
-    
   }
 }
 @media screen and (max-width: 320px) {
   .cover__background {
-    
     min-height: 200px;
-    
   }
 }

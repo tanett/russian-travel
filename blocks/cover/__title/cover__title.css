@@ -1,6 +1,6 @@
 .cover__title {
   /*width: calc(100% - 624px);*/
-  font-family: Inter;
+  font-family: Inter, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
