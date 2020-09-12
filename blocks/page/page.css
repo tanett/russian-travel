@@ -1,5 +1,5 @@
 .page {
-	max-width: 1500px;
+	max-width: 1280px;
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
@@ -32,7 +32,7 @@
 @media screen and (max-width: 680px) {
 	.page {
 		max-width: 680px;
-		padding: 28px 0 24px 0;
+		
 	}
 }
 

@@ -11,7 +11,7 @@
   .cover {
     position: relative;
     min-width: calc(100% + 96px);
-    height: 640px;
+    /* height: 640px; */
     left: -48px;
   }
 }
@@ -19,17 +19,19 @@
 @media screen and (max-width: 832px) {
   .cover {
     margin-bottom: 88px;
+    min-width: 100%;
+    left: 0;
   }
 }
 
-@media screen and (max-width: 815px) {
+/* @media screen and (max-width: 815px) {
   .cover {
     min-width: 100%;
     left: 0;
-    height: 62.5vw;
+    /* height: 62.5vw; */
     margin-bottom: 88px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .cover {
