@@ -1,6 +1,6 @@
 # Проект 3: Путешествие по России
 
-[Проект о путешествии по России](https://tanett.github.io/russian-travel/)
+[Проект о путешествии по России](https://tanett.github.io/russian-travel/) - лендинг
 
 **Figma**
 
